@@ -4,7 +4,7 @@
 
     <groupId>com.github.t1</groupId>
     <artifactId>thread-local-config-source</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <name>ThreadLocal ConfigSource</name>
     <description>A simple config source for MP Config, which keeps the config in a `ThreadLocal` variable.</description>
@@ -53,7 +53,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/t1/thread-local-config-source.git</developerConnection>
         <url>https://github.com/t1/thread-local-config-source.git</url>
-        <tag>v1.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <snapshotRepository>
