@@ -1,4 +1,4 @@
-= ThreadLocal ConfigSource
+= ThreadLocal ConfigSource image:https://maven-badges.herokuapp.com/maven-central/com.github.t1/thread-local-config-source/badge.svg[link=https://search.maven.org/artifact/com.github.t1/thread-local-config-source] image:https://github.com/t1/thread-local-config-source/actions/workflows/maven.yml/badge.svg[link=https://github.com/t1/thread-local-config-source/actions/workflows/maven.yml]
 
 A simple config source for https://microprofile.io/project/eclipse/microprofile-config[Microprofile Config], which keeps the config in a `ThreadLocal` variable.
 You may need this, e.g., for tests running in parallel.
