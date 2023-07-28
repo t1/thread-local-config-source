@@ -1,4 +1,4 @@
-= Thread-Local-Config-Source
+= ThreadLocal ConfigSource
 
 A simple config source for https://microprofile.io/project/eclipse/microprofile-config[Microprofile Config], which keeps the config in a `ThreadLocal` variable.
 You may need this, e.g., for tests running in parallel.
