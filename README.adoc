@@ -1,0 +1,6 @@
+= Thread-Local-Config-Source
+
+A simple config source for https://microprofile.io/project/eclipse/microprofile-config[Microprofile Config], which keeps the config in a `ThreadLocal` variable.
+You may need this, e.g., for tests running in parallel.
+
+The ordinal of this config source is 500, so it's picked up before system properties, which are ordinal 400.
