@@ -1,6 +1,8 @@
 = ThreadLocal ConfigSource image:https://maven-badges.herokuapp.com/maven-central/com.github.t1/thread-local-config-source/badge.svg[link=https://search.maven.org/artifact/com.github.t1/thread-local-config-source] image:https://github.com/t1/thread-local-config-source/actions/workflows/maven.yml/badge.svg[link=https://github.com/t1/thread-local-config-source/actions/workflows/maven.yml]
 
 A simple config source for https://microprofile.io/project/eclipse/microprofile-config[Microprofile Config], which keeps the config in a `ThreadLocal` variable.
-You may need this, e.g., for tests running in parallel.
+You may need this, e.g., if you run your tests in parallel.
 
 The ordinal of this config source is 500, so it's picked up before system properties, which are ordinal 400.
+
+Note: We currently experiment with image:https://img.shields.io/reproducible-central/artifact/com.github.t1/thread-local-config-source/1.1[Reproducible Central Artifact]
