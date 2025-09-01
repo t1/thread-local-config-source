@@ -5,4 +5,4 @@ You may need this, e.g., if you run your tests in parallel.
 
 The ordinal of this config source is 500, so it's picked up before system properties, which are ordinal 400.
 
-Note: We currently experiment with image:https://img.shields.io/reproducible-central/artifact/com.github.t1/thread-local-config-source/1.1[Reproducible Central Artifact]
+Note: We currently experiment with https://github.com/jvm-repo-rebuild/reproducible-central[Reproducible Builds Central] image:https://img.shields.io/reproducible-central/artifact/com.github.t1/thread-local-config-source/1.1[Reproducible Central Artifact]
